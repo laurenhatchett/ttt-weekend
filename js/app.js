@@ -8,7 +8,7 @@ let board, turn, winner
 /*------------------------ Cached Element References ------------------------*/
 const squareEls = document.querySelectorAll('.square')
 const messageEl = document.querySelector("#message")
-const resetBtnEl = document.querySelector('#reset')
+const resetBtnEl = document.querySelector('#reset-button')
 
 console.log(squareEls)
 console.log(messageEl)
