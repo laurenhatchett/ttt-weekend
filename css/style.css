@@ -22,10 +22,10 @@ h2 {
 }
 
 
-section.board { /*:hoover*/
+section.board {
   display: grid;
-  grid-template-rows: repeat(3, 10vmin);
-  grid-template-columns: repeat(3, 10vmin);
+  grid-template-rows: repeat(3, 15vmin);
+  grid-template-columns: repeat(3, 15vmin);
   grid-auto-rows: auto;
   grid-auto-columns: auto;
   grid-gap: 0vmin;
@@ -40,8 +40,7 @@ div {
 }
 
 button {
-  height: 25px;
+  height: 40px;
   width: 70px;
   margin: 10px auto;
-  /*align*/ 
 }

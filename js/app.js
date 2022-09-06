@@ -50,8 +50,9 @@ function render() {
     } else {
       return(winner === 1 ? messageEl.textContent = "Player 1 has won!" : messageEl.textContent = "Player 2 has won!")  
     }
-  })
+  }) 
 }
+
 
 function handleClick(evt) {
   let sqIdx = parseInt(evt.target.id[2]) //parseInt assigns sqIdx an integer from the string. The event is targeting the 2nd index from the id from the square. It is getting rid of the sq part and leaving me with a string value of a number which is then going to be parsed out. 
@@ -85,7 +86,9 @@ function getWinner(){
       )=== false){
         return winner = 'T'
       }
-    }  
+    } 
     })
     render()
   }
+
+  
